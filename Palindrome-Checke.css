@@ -1,0 +1,86 @@
+*{margin: 0;padding: 0;outline: 0;}
+body
+{
+	width: 100%;
+	height: 100vh;
+	background: hsl(210, 28.3%, 20.8%);
+	box-sizing: border-box;
+}
+main
+{
+	width: 98%;
+	height: 100vh;
+	/* background: #6e5e5e; */
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+form
+{
+	width: 35%;
+	height: 55vh;
+}
+fieldset
+{
+	width: 98%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+legend 
+{
+	color: #fff;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	margin: 0px 35px;
+}
+.f2
+{
+	height: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+input[type="submit"]
+{
+
+	height: 2rem;
+	width: 6rem;
+	background: #b9d04a;
+	border: none;
+	border-radius: 20px;
+}
+textarea 
+{
+	width: 28%;
+	margin: 32px 0px 20px;
+	background-color: hsl(70.1, 100%, 76.7%);
+	font-size: 2rem;
+	color: #1B5E20;
+	border: none;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+	position: absolute;
+	height: 41%;
+}
+::placeholder 
+{
+	font-size: 1.2rem;
+	color: #263544;
+}
+span
+{
+	width: 82%;
+	background: transparent;
+	height: 2rem;
+	font-size: 1.2rem;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f70202;
+
+}
